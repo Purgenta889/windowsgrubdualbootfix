@@ -45,6 +45,7 @@ Exit diskpart:
 ### 4. Verify
 
 To make sure you've selected your Windows installation, run this:
+
 `dir Z:\` 
 
 You should see folders placed within the Windows root, such as Program Files, Users, etc.

@@ -53,6 +53,7 @@ You should see folders placed within the Windows root, such as Program Files, Us
 ### 5. Rebuild Windows Boot Files
 
 Now, this is the part where you actually fix your Windows boot files. Run this command:
+
 `bcdboot Z:\Windows /s S: /f UEFI`
 
 ### 6. Finishing Up

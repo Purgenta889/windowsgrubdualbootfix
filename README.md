@@ -46,6 +46,7 @@ Exit diskpart:
 
 To make sure you've selected your Windows installation, run this:
 `dir Z:\` 
+
 You should see folders placed within the Windows root, such as Program Files, Users, etc.
 
 ### 5. Rebuild Windows Boot Files

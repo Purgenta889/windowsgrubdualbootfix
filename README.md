@@ -1,6 +1,6 @@
 # How To Fix Windows Not Booting from GRUB in Windows/Linux Dualboot (if the dualboot is done on a singular drive)
 
-This is a guide on how to fix Windows not booting when selected from the GRUB menu, in a Windows/Linux dualboot, if the dualboot is done on the same drive. Additionally, this guide also assumes you use the GRUB menu to boot into both Linux and Windows, and not your BIOS's boot menu. This guide will not work for those who use their boot menu to boot into Windows.
+This is a guide on how to fix Windows not booting when selected from the GRUB menu, in a Windows/Linux dualboot, if the dualboot is done on the same drive. Additionally, this guide also assumes you use the GRUB menu to boot into both Linux and Windows, and not your BIOS's boot menu. It also assumes your EFI partition is shared by both Windows and Linux/GRUB. This guide will not work for those who use their boot menu to boot into Windows, or who have separate EFI partitions for both Windows and GRUB.
 
 # Guide
 

@@ -8,7 +8,7 @@ This is a guide on how to fix Windows not booting when selected from the GRUB me
 
 ### 1. Keep attempting to boot into Windows
 
-If you are on a black screen, with no loading whatsoever, or if you are stuck on a screen that says "Preparing Automatic Restart", forcefully restart your computer by holding the power button to turn it off and on again, and then keep trying to boot into Windows. Windows should eventually tell you that your PC needs to enter recovery mode. To do so, press `F1` on your keyboard.
+If you are on a black screen, with no loading whatsoever, or if you are stuck on a screen that says "Preparing Automatic Restart", forcefully restart your computer by holding the power button to turn it off and on again, and then keep trying to boot into Windows. Windows should eventually tell you that your PC needs to enter recovery mode. To do so, press `F1` on your keyboard. It will then restart, and take you to your GRUB menu. Select Windows. It should show text saying "Please Wait".
 
 After some time, Windows should take you there. Select "Troubleshoot", and then, select "Command Prompt". A terminal window will open. A majority of the guide will be done here.
 

@@ -2,8 +2,8 @@
 
 This is a guide on how to fix Windows not booting when selected from the GRUB menu, in a Windows/Linux dualboot, if the dualboot is done on the same drive. Additionally, this guide also assumes you use the GRUB menu to boot into both Linux and Windows, and not your BIOS's boot menu. It also assumes your EFI partition is shared by both Windows and Linux/GRUB. This guide will not work for those who use their boot menu to boot into Windows, or who have separate EFI partitions for both Windows and GRUB.
 
-# ⚠️ IMPORTANT DISCLAIMER ⚠️
-I do **not** reccomend using GRUB to boot into Windows. Through my own testing, I have found that after 2-3 restarts, Windows will completely fail to boot from the GRUB menu. As a result, you will need to either do this fix again, or recreate the boot menu entry in Linux. What I reccomend is setting Windows as the default bootloader, and then whenever you wish to boot into Linux, use your BIOS's boot menu for this. A guide for that is below the following fix.
+> [!CAUTION]
+> I do **not** reccomend using GRUB to boot into Windows. Through my own testing, I have found that after 2-3 restarts, Windows will completely fail to boot from the GRUB menu. As a result, you will need to either do this fix again, or recreate the boot menu entry in Linux. What I reccomend is setting Windows as the default bootloader, and then whenever you wish to boot into Linux, use your BIOS's boot menu for this. A guide for that is below the following fix.
 
 # Guide for Fixing Windows
 

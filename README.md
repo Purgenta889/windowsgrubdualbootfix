@@ -83,3 +83,24 @@ There is no space between the comma. The command is to be formatted the exact wa
 
 ## 3. Restart
 Restart your computer. Windows should automatically boot. To access the GRUB menu, press `F9`, `F12`, `Esc`, `Del`, or any other key, respective to your device manufacturer. 
+
+## 4. Verify (Optional)
+Now, we will verify if Windows's boot entry is correct. However, if you have successfully booted into Windows, it is more than likely it is, and this step is entirely optional.
+
+Inside Windows, open an admin command prompt (`cmd`, run as administrator), and run the following:
+
+`bcdedit /enum {bootmgr}`
+
+Within the line of `path`, it should show this directory:
+
+`\EFI\Microsoft\Boot\bootmgfw.efi`
+
+If not, correct this with:
+
+`bcdedit /set {bootmgr} path \EFI\Microsoft\Boot\bootmgfw.efi`
+
+Now, run the command again:
+
+`bcdedit /enum {bootmgr}`
+
+`path` should now show the correct directory.

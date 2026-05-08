@@ -74,7 +74,7 @@ Take note of the number given to Linux, and Windows. Run this command:
 
 `sudo efibootmgr -o [WINDOWS],[LINUX]`
 
-For example, if Windows's boot order number is `0006`, and Linux is `0001`, then this command would look like:
+Replace `[WINDOWS]` with the Windows's boot entry, and `[LINUX]` with Linux's entry. For example, if Windows's boot order number is `0006`, and Linux is `0001`, then this command would look like:
 
 `sudo efibootmgr -o 0006,0001`
 
@@ -82,7 +82,7 @@ For example, if Windows's boot order number is `0006`, and Linux is `0001`, then
 There is no space between the comma. The command is to be formatted the exact way as described here.
 
 ## 3. Restart
-Restart your computer. Windows should automatically boot. To access the GRUB menu, press `F9`, `F12`, `Esc`, `Del`, or any other key, respective to your device manufacturer. 
+Restart your computer. Windows should automatically boot. To access the GRUB menu, press `F9`, `F12`, `Esc`, `Del`, or any other key, respective to your device or motherboard manufacturer. 
 
 ## 4. Verify (Optional)
 Now, we will verify if Windows's boot entry is correct. However, if you have successfully booted into Windows, it is more than likely it is, and this step is entirely optional.
